@@ -10,22 +10,22 @@
   <div class="button__div">
  	 <a href="#k1" class="button button__k">Открыть окно Крученых
  	  </a>
- 		<a href="#m1" class="button button__M">Открыть окно Маяковского
+ 		<a href="#k1" class="button button__M">Открыть окно Маяковского
  		</a>
- 		<a href="#b1" class="button button__B">Открыть окно Бурлюка
+ 		<a href="#k1" class="button button__B">Открыть окно Бурлюка
  		</a>
 	 </div>
-	</div> 
-    <script type='text/javascript'>
-       document.getElementById('#k1').innerHTML='<P><font  color=blue>Крученых Крут</font>';
-       document.getElementById('#m1').innerHTML='<P><font  color=red>Маяк Молодец</font>';
-       document.getElementById('#b1').innerHTML='<P><font  color=green>Бурлюк Брутален</font>';
-      </script>
-  <div id="k1" class="popup" onclick='getElementById("k1");'>1>Крученых Крут >Крученых Крут </div>
-  <div id="m1" class="popup" onclick='getElementById("m1");'>2>Маяк Молодец 
+	</div>  
+	<a href="#x" class="overlay" id="k1"></a>
+  <div id="k1" class="popup" onclick="k1">
+  	<p class="p__no__show" id="k2"> Крученых Крут
+  	</p>
+  	<p class="p__no__show"> Маяк Молодец
+  	</p>
+  	<p class="p__no__show"> Бурлюк Брутален
+  	</p>
+  	  <a class="close"title="Закрыть" href="#close">
   </div>
-  <div id="b1" class="popup"  onclick='getElementById("b1");'>3>Бурлюк Брутален
-  </div>
-
+  <script src="script.js"> </script>
 </body>
 </html>
