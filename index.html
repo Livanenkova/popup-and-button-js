@@ -7,25 +7,27 @@
 </head>
 <body>
  <div class="background__layer">
-  <div class="button__div">
- 	 <a href="#k1" class="button button__k">Открыть окно Крученых
- 	  </a>
- 		<a href="#k1" class="button button__M">Открыть окно Маяковского
- 		</a>
- 		<a href="#k1" class="button button__B">Открыть окно Бурлюка
- 		</a>
-	 </div>
-	</div>  
-	<a href="#x" class="overlay" id="k1"></a>
-  <div id="k1" class="popup" onclick="k1">
-  	<p class="p__no__show" id="k2"> Крученых Крут
-  	</p>
-  	<p class="p__no__show"> Маяк Молодец
-  	</p>
-  	<p class="p__no__show"> Бурлюк Брутален
-  	</p>
-  	  <a class="close"title="Закрыть" href="#close">
+  <div class="button_container">
+  <button id='kruchenih' class="button">Крученых
+  </button>
+  <button id='mayakovskii' class="button">Маяковский
+  </button>
+  <button id='burluk'class="button" >Бурлюк
+  </button>
+  <button id='arina'class="button" >Арина
+  </button>
   </div>
+  <div id='wrapper' class="wrapper">
+  <div class="popup">
+   <button id='closePopup'>
+      close
+   </button>
+   <div id='content'></div>
+  </div>
+  </div>
+ </div>
+
+
   <script src="script.js"> </script>
 </body>
 </html>
